@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,112 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/*== Otp Page ==*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  text-decoration: none;
+  list-style: none;
+  overflow-x: hidden;
+}
+
+.otp {
+  width: 1540px;
+  height: 1024px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lotpside {
+  text-align: center;
+  background: #1A257E;
+  position: relative;
+  width: 810px;
+  height: 710px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lotpside img {
+  width: 191.97px;
+  height: 121.67px;
+  position: absolute;
+}
+
+.rotpside {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 710px;
+}
+
+.obox {
+  width: 516px;
+  padding: 50px;
+  /* height: 532px; */
+  border-radius: 28px;
+  border: 1px solid #00000059;
+}
+
+.obox p {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.obox span {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.rectangle {
+  margin: 25px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.rectangle .re-1 {
+  background: #1A257E1A;
+  margin: 18px;
+  width: 56.23px;
+  height: 60px;
+  border-radius: 5px
+}
+
+.obtn {
+  background: #1A257E;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  width: 356px;
+  height: 45px;
+  font-size: 15px;
+  padding: 11px, 117px, 11px, 117px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
+
+.obox h4{
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-weight: 400 ;
+}
+
+.obox .enter{
+  color: #00000073;
+  font-size: 14px;
 }
